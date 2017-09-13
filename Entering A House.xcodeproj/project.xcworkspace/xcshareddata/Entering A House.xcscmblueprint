@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "472CA3506BC2C7F8166182DA4D1D2B63CF7BC016",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "472CA3506BC2C7F8166182DA4D1D2B63CF7BC016" : 9223372036854775807,
+    "48E90EB735B2441D17D71394AAA1CF449BDC04F7" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1B87C80A-40BC-42EF-9044-6F169F4EFB5D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "472CA3506BC2C7F8166182DA4D1D2B63CF7BC016" : "Entering%20A%20House\/",
+    "48E90EB735B2441D17D71394AAA1CF449BDC04F7" : "Entering%20A%20House\/iOS-navigationgame-assets\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Entering A House",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Entering A House.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jbhatti\/Entering-A-House.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "472CA3506BC2C7F8166182DA4D1D2B63CF7BC016"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lighthouse-labs\/iOS-navigationgame-assets.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "48E90EB735B2441D17D71394AAA1CF449BDC04F7"
+    }
+  ]
+}
