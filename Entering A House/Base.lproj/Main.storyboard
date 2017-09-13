@@ -45,7 +45,7 @@
         <!--View Controller-->
         <scene sceneID="kHD-Oh-plA">
             <objects>
-                <viewController id="oO6-hD-TFb" sceneMemberID="viewController">
+                <viewController id="oO6-hD-TFb" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FkO-nN-35i"/>
                         <viewControllerLayoutGuide type="bottom" id="05e-QB-lRX"/>
@@ -93,7 +93,7 @@
         <!--View Controller-->
         <scene sceneID="A5k-FS-ij4">
             <objects>
-                <viewController id="9cg-bR-dgu" sceneMemberID="viewController">
+                <viewController id="9cg-bR-dgu" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="orh-cg-ahc"/>
                         <viewControllerLayoutGuide type="bottom" id="FSD-dr-Nna"/>
@@ -107,9 +107,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8z2-ZL-0xL">
-                                <rect key="frame" x="129" y="384" width="87" height="30"/>
+                                <rect key="frame" x="147" y="384" width="52" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Dining Room"/>
+                                <state key="normal" title="Kitchen"/>
                                 <connections>
                                     <segue destination="FbY-fQ-zYN" kind="show" id="kBl-Yk-vOX"/>
                                 </connections>
@@ -125,7 +125,7 @@
         <!--View Controller-->
         <scene sceneID="Aej-GS-J2m">
             <objects>
-                <viewController id="FbY-fQ-zYN" sceneMemberID="viewController">
+                <viewController id="FbY-fQ-zYN" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Tg6-XY-xLk"/>
                         <viewControllerLayoutGuide type="bottom" id="Ran-Uq-GCz"/>
@@ -139,9 +139,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OcP-lz-bUO">
-                                <rect key="frame" x="171" y="429" width="46" height="30"/>
+                                <rect key="frame" x="155" y="429" width="78" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Back Porch"/>
                                 <connections>
                                     <segue destination="93i-nu-ejm" kind="show" id="9PK-WS-Aiy"/>
                                 </connections>
@@ -157,7 +157,7 @@
         <!--View Controller-->
         <scene sceneID="0Nm-6V-Qn6">
             <objects>
-                <viewController id="93i-nu-ejm" sceneMemberID="viewController">
+                <viewController id="93i-nu-ejm" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OgB-Cy-dCR"/>
                         <viewControllerLayoutGuide type="bottom" id="EfT-9w-8ib"/>
@@ -181,7 +181,7 @@
         <!--View Controller-->
         <scene sceneID="doj-Yd-tJb">
             <objects>
-                <viewController id="Xcz-fP-hJn" sceneMemberID="viewController">
+                <viewController id="Xcz-fP-hJn" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8ff-OI-9DD"/>
                         <viewControllerLayoutGuide type="bottom" id="dxb-7M-3Y1"/>
@@ -195,9 +195,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yc7-AS-ZuD">
-                                <rect key="frame" x="163" y="400" width="48" height="30"/>
+                                <rect key="frame" x="116" y="399" width="142" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Library"/>
+                                <state key="normal" title="Secret Passage"/>
                                 <connections>
                                     <segue destination="D9C-vT-LAx" kind="show" id="los-ed-3ra"/>
                                 </connections>
@@ -208,12 +208,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CrP-TY-tvj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2055" y="428"/>
+            <point key="canvasLocation" x="2053.5999999999999" y="427.73613193403304"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="mQc-fR-LZj">
             <objects>
-                <viewController id="D9C-vT-LAx" sceneMemberID="viewController">
+                <viewController id="D9C-vT-LAx" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eIG-1s-zbC"/>
                         <viewControllerLayoutGuide type="bottom" id="r71-95-V86"/>
@@ -223,25 +223,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4so-b1-oqi">
-                                <rect key="frame" x="132" y="411" width="110" height="30"/>
+                                <rect key="frame" x="131" y="411" width="112" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Mysterious Lake"/>
                                 <connections>
                                     <segue destination="AfT-it-MAV" kind="show" id="Rpx-Vf-rue"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dCn-Ny-uKd">
-                                <rect key="frame" x="164" y="489" width="46" height="30"/>
+                                <rect key="frame" x="150" y="489" width="75" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Laboratory"/>
                                 <connections>
                                     <segue destination="G2D-Mf-eUh" kind="show" id="Cd1-3p-2c3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YOW-ia-nIA">
-                                <rect key="frame" x="164" y="575" width="46" height="30"/>
+                                <rect key="frame" x="156" y="575" width="63" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Dungeon"/>
                                 <connections>
                                     <segue destination="JhZ-FV-F0c" kind="show" id="e5U-uc-tnS"/>
                                 </connections>
@@ -261,7 +261,7 @@
         <!--View Controller-->
         <scene sceneID="uuk-Lx-cwW">
             <objects>
-                <viewController id="AfT-it-MAV" sceneMemberID="viewController">
+                <viewController id="AfT-it-MAV" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="H2M-gf-Hg4"/>
                         <viewControllerLayoutGuide type="bottom" id="XwX-fI-gZz"/>
@@ -275,9 +275,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WXA-Pc-JVF">
-                                <rect key="frame" x="164" y="426" width="46" height="30"/>
+                                <rect key="frame" x="135" y="426" width="105" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Cursed Chalice"/>
                                 <connections>
                                     <segue destination="GQq-42-nPP" kind="show" id="f8w-oa-7Be"/>
                                 </connections>
@@ -293,7 +293,7 @@
         <!--View Controller-->
         <scene sceneID="7BI-Jp-XOJ">
             <objects>
-                <viewController id="GQq-42-nPP" sceneMemberID="viewController">
+                <viewController id="GQq-42-nPP" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eE7-2D-LU3"/>
                         <viewControllerLayoutGuide type="bottom" id="LX2-Rz-d4r"/>
@@ -317,7 +317,7 @@
         <!--View Controller-->
         <scene sceneID="9Ve-Gi-CKn">
             <objects>
-                <viewController id="G2D-Mf-eUh" sceneMemberID="viewController">
+                <viewController id="G2D-Mf-eUh" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lBY-t9-7O8"/>
                         <viewControllerLayoutGuide type="bottom" id="Dac-9b-JGy"/>
@@ -331,9 +331,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6T7-Uu-FlS">
-                                <rect key="frame" x="102" y="323" width="46" height="30"/>
+                                <rect key="frame" x="91" y="323" width="69" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Generator"/>
                                 <connections>
                                     <segue destination="Qxa-Xd-Cvh" kind="show" id="hJj-hS-bA7"/>
                                 </connections>
@@ -349,7 +349,7 @@
         <!--View Controller-->
         <scene sceneID="VKl-8K-UZh">
             <objects>
-                <viewController id="Qxa-Xd-Cvh" sceneMemberID="viewController">
+                <viewController id="Qxa-Xd-Cvh" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9cY-LK-jUR"/>
                         <viewControllerLayoutGuide type="bottom" id="eVI-UB-L5T"/>
@@ -373,7 +373,7 @@
         <!--View Controller-->
         <scene sceneID="F1D-Su-lmF">
             <objects>
-                <viewController id="JhZ-FV-F0c" sceneMemberID="viewController">
+                <viewController id="JhZ-FV-F0c" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NHg-US-hIE"/>
                         <viewControllerLayoutGuide type="bottom" id="I4k-3x-x6O"/>
@@ -397,7 +397,7 @@
         <!--View Controller-->
         <scene sceneID="Fee-eS-OxA">
             <objects>
-                <viewController id="c6d-AV-NGG" sceneMemberID="viewController">
+                <viewController id="c6d-AV-NGG" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vQK-Zd-41A"/>
                         <viewControllerLayoutGuide type="bottom" id="Hzj-ys-Tai"/>
@@ -437,7 +437,7 @@
         <!--View Controller-->
         <scene sceneID="HCo-dP-5ao">
             <objects>
-                <viewController id="tUg-Ip-qgl" sceneMemberID="viewController">
+                <viewController id="tUg-Ip-qgl" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="53e-lS-odk"/>
                         <viewControllerLayoutGuide type="bottom" id="hi1-hV-Y2Y"/>
@@ -461,7 +461,7 @@
         <!--View Controller-->
         <scene sceneID="YXc-9U-5UX">
             <objects>
-                <viewController id="Qch-qe-b01" sceneMemberID="viewController">
+                <viewController id="Qch-qe-b01" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="sp2-Mj-S5j"/>
                         <viewControllerLayoutGuide type="bottom" id="zsR-g2-bVK"/>
@@ -493,7 +493,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="KOh-ln-reM"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="asp-Il-9zK"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7qY-Cv-zMw" userLabel="First Responder" sceneMemberID="firstResponder"/>
